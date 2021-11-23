@@ -7,6 +7,9 @@ import NavBar from './Components/Pages/MainPage/NavBar';
 import * as ROUTES from './Components/routes/routes';
 
 const Main = lazy(() => import('./Components/Pages/MainPage/Main'));
+const GetRequest = lazy(() =>
+  import('./Components/JSON/JSONGetRequest.pageOne')
+);
 
 export default function App() {
   return (
@@ -17,7 +20,7 @@ export default function App() {
         <Routes>
           {/* MainPage */}
           <Route path={ROUTES.Main} element={<Main animate={true} />} />
-          <Route />
+          <Route path={ROUTES.JSON} element={<GetRequest />} />
           <Route />
           <Route />
         </Routes>

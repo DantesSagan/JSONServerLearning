@@ -1,2 +1,2 @@
 export const Main = '/';
-export const JSON = '/JSON/JSON';
+export const JSON = '/JSON/GetRequest';

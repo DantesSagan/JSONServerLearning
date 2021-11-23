@@ -3,37 +3,37 @@
     {
       "id": 1,
       "rating:": 3,
-      "comment": "Product 1 for product 1",
+      "comment": "Product 1",
       "productID": 1
     },
     {
       "id": 2,
       "rating:": 4,
-      "comment": "Product 1 for product 2",
+      "comment": "Product 2",
       "productID": 1
     },
     {
       "id": 3,
       "rating:": 4,
-      "comment": "Product 1 for product 3",
+      "comment": "Product 3",
       "productID": 1
     },
     {
       "id": 4,
       "rating:": 4,
-      "comment": "Product 1 for product 4",
+      "comment": "Product 4",
       "productID": 1
     },
     {
       "id": 5,
       "rating:": 5,
-      "comment": "Product 1 for product 5",
+      "comment": "Product 5",
       "productID": 2
     },
     {
       "id": 6,
       "rating:": 5,
-      "comment": "Product 1 for product 6",
+      "comment": "Product 6",
       "productID": 3
     }
   ],
