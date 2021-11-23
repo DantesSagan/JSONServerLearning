@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "autoprefixer": "^9.8.8",
+    "json-server": "^0.17.0",
     "postcss": "^7.0.39",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -24,7 +25,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve-json": "json-server --watch db.json --port 3000"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +45,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## In this learning i'm trying to create static JSON server with add some other libraries.",
+  "main": "craco.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DantesSagan/JSONServerLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DantesSagan/JSONServerLearning/issues"
+  },
+  "homepage": "https://github.com/DantesSagan/JSONServerLearning#readme"
 }
