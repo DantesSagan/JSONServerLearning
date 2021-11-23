@@ -1,24 +1,26 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-import Switch from 'react-router';
 
-import ROUTES from './Components/routes/routes';
+import Loader from './Components/fallback/loader';
+import NavBar from './Components/Pages/MainPage/NavBar';
 
-import './App.css';
-const NavBar = lazy(() => import('./Components/Pages/MainPage/NavBar'));
+import * as ROUTES from './Components/routes/routes';
+
 const Main = lazy(() => import('./Components/Pages/MainPage/Main'));
 
 export default function App() {
   return (
     <BrowserRouter>
+      {/* NavBarPage */}
       <NavBar />
-      <Suspense>
-        <Switch>
-          <Route path={ROUTES.Main} component={Main} />
+      <Suspense fallback={<Loader />}>
+        <Routes>
+          {/* MainPage */}
+          <Route path={ROUTES.Main} element={<Main animate={true} />} />
           <Route />
           <Route />
           <Route />
-        </Switch>
+        </Routes>
       </Suspense>
     </BrowserRouter>
   );

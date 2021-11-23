@@ -48,11 +48,12 @@
   transition: 0.3s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 10px red;
   border-radius: 10px;
   display: block;
   background-color: 'white';
 }
+
 .button:hover {
   outline: thick double white;
   background-color: 'white';
@@ -81,10 +82,9 @@
 .gridCol {
   font-size: 1.5em;
   background-image: linear-gradient(
-    45deg,
-    #ff9a9e 0%,
-    #fad0c4 99%,
-    #fad0c4 100%
+    106.9deg,
+    rgba(148, 14, 60, 1) 60.9%,
+    rgba(3, 22, 27, 1) 122.3%
   );
 }
 
