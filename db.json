@@ -4,37 +4,52 @@
       "id": 1,
       "rating:": 3,
       "comment": "Product 1",
+      "category": "electronics",
+      "price": 4000,
       "productID": 1
     },
     {
       "id": 2,
       "rating:": 4,
       "comment": "Product 2",
+      "category": "electronics",
+      "price": 3000,
       "productID": 1
     },
     {
       "id": 3,
       "rating:": 4,
       "comment": "Product 3",
+      "category": "books",
+      "price": 2000,
       "productID": 1
     },
     {
       "id": 4,
       "rating:": 4,
       "comment": "Product 4",
+      "category": "games",
+      "price": 1500,
       "productID": 1
     },
     {
       "id": 5,
       "rating:": 5,
       "comment": "Product 5",
+      "category": "games",
+      "price": 4000,
       "productID": 2
     },
     {
       "id": 6,
       "rating:": 5,
       "comment": "Product 6",
-      "productID": 3
+      "category": "electronics",
+      "price": 5000,
+      "productID": 3,
+      "discount": {
+        "type": "shipping"
+      }
     }
   ],
   "review": [

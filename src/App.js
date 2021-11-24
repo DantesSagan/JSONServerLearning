@@ -10,7 +10,7 @@ const Main = lazy(() => import('./Components/Pages/MainPage/Main'));
 const GetRequest = lazy(() =>
   import('./Components/JSON/JSONGetRequest.pageOne')
 );
-
+const Filtering = lazy(() => import('./Components/JSON/JSONFiltering.PageTwo'));
 export default function App() {
   return (
     <BrowserRouter>
@@ -20,8 +20,10 @@ export default function App() {
         <Routes>
           {/* MainPage */}
           <Route path={ROUTES.Main} element={<Main animate={true} />} />
+          {/* GetRequest */}
           <Route path={ROUTES.JSON} element={<GetRequest />} />
-          <Route />
+          {/* Filtering */}
+          <Route path={ROUTES.Filtering} element={<Filtering />} />
           <Route />
         </Routes>
       </Suspense>

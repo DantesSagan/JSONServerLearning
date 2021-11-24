@@ -1,5 +1,10 @@
 /* .CLASS */
-
+.address {
+  text-decoration: none;
+}
+.address:hover {
+  text-decoration: underline;
+}
 .dropdown {
   display: inline-block;
   padding: 10px;
