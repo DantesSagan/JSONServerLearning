@@ -11,6 +11,7 @@ const GetRequest = lazy(() =>
   import('./Components/JSON/JSONGetRequest.pageOne')
 );
 const Filtering = lazy(() => import('./Components/JSON/JSONFiltering.PageTwo'));
+const Sorting = lazy(() => import('./Components/JSON/JSONSorting.PageThree'));
 export default function App() {
   return (
     <BrowserRouter>
@@ -24,7 +25,7 @@ export default function App() {
           <Route path={ROUTES.JSON} element={<GetRequest />} />
           {/* Filtering */}
           <Route path={ROUTES.Filtering} element={<Filtering />} />
-          <Route />
+          <Route path={ROUTES.Sorting} element={<Sorting />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

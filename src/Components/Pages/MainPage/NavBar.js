@@ -29,6 +29,9 @@ export default function NavBar() {
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.Filtering}>JsonFiltering#2</Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.Sorting}>JsonSorting#3</Link>
+              </div>
             </div>
           </button>
         </div>
