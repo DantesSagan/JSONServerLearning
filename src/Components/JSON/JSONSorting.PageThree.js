@@ -220,7 +220,7 @@ export default function JSONSorting() {
           descending and ascending at the same price what their cost!
         </div>
         <SyntaxHighlighter language='javascript' style={dark}>
-          {codeStringTwo}
+          {codeThree}
         </SyntaxHighlighter>
       </div>
     );

@@ -32,6 +32,9 @@ export default function NavBar() {
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.Sorting}>JsonSorting#3</Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.Pagination}>JsonPagination#4</Link>
+              </div>
             </div>
           </button>
         </div>
