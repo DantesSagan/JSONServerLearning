@@ -15,6 +15,9 @@ const Sorting = lazy(() => import('./Components/JSON/JSONSorting.PageThree'));
 const Pagination = lazy(() =>
   import('./Components/JSON/JSONPagination.PageFour')
 );
+const Operators = lazy(() =>
+  import('./Components/JSON/JSONOperators.PageFive')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -32,6 +35,8 @@ export default function App() {
           <Route path={ROUTES.Sorting} element={<Sorting />} />
           {/* Pagination */}
           <Route path={ROUTES.Pagination} element={<Pagination />} />
+          {/* Operators */}
+          <Route path={ROUTES.Operators} element={<Operators />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

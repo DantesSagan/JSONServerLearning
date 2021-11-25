@@ -50,6 +50,14 @@
       "discount": {
         "type": "shipping"
       }
+    },
+    {
+      "id": 6,
+      "rating:": 6,
+      "comment": "Product 6",
+      "category": "electronics",
+      "price": 2000,
+      "productID": 2
     }
   ],
   "review": [

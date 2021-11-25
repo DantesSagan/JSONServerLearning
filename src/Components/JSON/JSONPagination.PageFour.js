@@ -81,7 +81,7 @@ rel="last"
       <div>
         <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
           If you want to see db.json and Pagination by their{' '}
-          <strong> pages</strong>and what data you want to see in this page.{' '}
+          <strong> pages</strong> and what data you want to see in this page.{' '}
           <br />
           And then you need to type this in address bar:
           <br />
