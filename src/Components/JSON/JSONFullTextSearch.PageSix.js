@@ -50,7 +50,7 @@ export default function JSONFullTextSearch() {
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "rating:": 6,
       "comment": "Product 6",
       "category": "electronics",

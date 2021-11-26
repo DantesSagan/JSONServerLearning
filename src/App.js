@@ -21,6 +21,9 @@ const Operators = lazy(() =>
 const FullTextSearch = lazy(() =>
   import('./Components/JSON/JSONFullTextSearch.PageSix')
 );
+const Relationships = lazy(() =>
+  import('./Components/JSON/JSONRelationships.PageSeven')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -42,6 +45,8 @@ export default function App() {
           <Route path={ROUTES.Operators} element={<Operators />} />
           {/* FullTextSearch */}
           <Route path={ROUTES.FullTextSearch} element={<FullTextSearch />} />
+          {/* Relationships */}
+          <Route path={ROUTES.Relationships} element={<Relationships />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

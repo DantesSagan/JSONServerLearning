@@ -41,6 +41,9 @@ export default function NavBar() {
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.FullTextSearch}>JsonFullTextSearch#6</Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.Relationships}>JsonRelationships#7</Link>
+              </div>
             </div>
           </button>
         </div>
