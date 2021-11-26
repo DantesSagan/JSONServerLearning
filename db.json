@@ -51,6 +51,20 @@
       "comment": "Product 6",
       "category": "electronics",
       "price": 2000
+    },
+    {
+      "id": 11,
+      "rating:": 3,
+      "comment": "Product 11",
+      "category": "electronics",
+      "price": 4000
+    },
+    {
+      "id": 12,
+      "rating:": 3,
+      "comment": "Product 12",
+      "category": "electronics",
+      "price": 4000
     }
   ],
   "review": [

@@ -44,6 +44,9 @@ export default function NavBar() {
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.Relationships}>JsonRelationships#7</Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.PostRequest}>JsonPostRequest#8</Link>
+              </div>
             </div>
           </button>
         </div>
