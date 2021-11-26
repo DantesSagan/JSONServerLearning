@@ -157,7 +157,7 @@ export default function JSONOperators() {
 
     return (
       <div>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Operators by their{' '}
           <strong> price</strong> what greater or equal to 2000, <br />
           less then or equal to 4000 <br />
@@ -177,7 +177,7 @@ export default function JSONOperators() {
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeString}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Operators by their
           <strong> id</strong> you need to type this in address bar:
           <br />
@@ -194,7 +194,7 @@ export default function JSONOperators() {
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeStringTwo}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Operators filtering all products what
           will be equal to beginning of thier word for example to = e,
           <br /> you need to type this in address bar:

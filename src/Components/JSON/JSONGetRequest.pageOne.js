@@ -98,7 +98,7 @@ export default function JSONGetRequest() {
   `;
     return (
       <div>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json list of types products type in address bar:
           <br />
           <a href='http://localhost:4000/products' className='hover:underline'>
@@ -110,7 +110,7 @@ export default function JSONGetRequest() {
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeString}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json list of types review type in address bar:
           <br />
           <a href='http://localhost:4000/review' className='hover:underline'>
@@ -122,7 +122,7 @@ export default function JSONGetRequest() {
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeStringTwo}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json list of types review and especially id
           number 1 type in address bar:
           <br />

@@ -5,7 +5,7 @@ import React from 'react';
 export default function NavBar() {
   return (
     <header>
-      <nav className='grid grid-cols-3 shadow-inner p-2 m-2 rounded-t-2xl gridCol border-double border-white text-center'>
+      <nav className='grid grid-cols-3 p-2 m-2 rounded-t-2xl gridCol border-double border-4 border-white text-center blackShadow'>
         <div
           id='navOne'
           className='col-span-4 button'
@@ -37,6 +37,9 @@ export default function NavBar() {
               </div>
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.Operators}>JsonOperators#5</Link>
+              </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.FullTextSearch}>JsonFullTextSearch#6</Link>
               </div>
             </div>
           </button>

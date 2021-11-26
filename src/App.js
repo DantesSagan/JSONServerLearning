@@ -18,6 +18,9 @@ const Pagination = lazy(() =>
 const Operators = lazy(() =>
   import('./Components/JSON/JSONOperators.PageFive')
 );
+const FullTextSearch = lazy(() =>
+  import('./Components/JSON/JSONFullTextSearch.PageSix')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -37,6 +40,8 @@ export default function App() {
           <Route path={ROUTES.Pagination} element={<Pagination />} />
           {/* Operators */}
           <Route path={ROUTES.Operators} element={<Operators />} />
+          {/* FullTextSearch */}
+          <Route path={ROUTES.FullTextSearch} element={<FullTextSearch />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

@@ -172,7 +172,7 @@ export default function JSONSorting() {
 `;
     return (
       <div>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Sorting by their{' '}
           <strong> ascending</strong> price you need to type this in address
           bar:
@@ -189,7 +189,7 @@ export default function JSONSorting() {
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeString}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Sorting by their
           <strong> descending </strong> price need to type this in address bar:
           <br />

@@ -79,7 +79,7 @@ rel="last"
 `;
     return (
       <div>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Pagination by their{' '}
           <strong> pages</strong> and what data you want to see in this page.{' '}
           <br />
@@ -98,7 +98,7 @@ rel="last"
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeString}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Pagination by their
           <strong> second page and etc</strong> need to type this in address
           bar:
@@ -116,7 +116,7 @@ rel="last"
         <SyntaxHighlighter language='javascript' style={dark}>
           {codeStringTwo}
         </SyntaxHighlighter>
-        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black'>
+        <div className='text-center text-2xl rounded-lg p-8 border-4 border-red-700 shadow-inner bg-black blueShadow'>
           If you want to see db.json and Pagination by their URL LINK from 1st
           page to 2n page you need to type this in address bar:
           <br />

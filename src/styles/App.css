@@ -1,4 +1,14 @@
 /* .CLASS */
+.blackShadow {
+  box-shadow: 0.5;
+  box-shadow: 0 8px 48px 0 black inset;
+}
+
+.blueShadow {
+  box-shadow: 0.5;
+  box-shadow: 0 8px 48px 0 rgba(58, 66, 187, 0.651) inset;
+}
+
 .address {
   text-decoration: none;
 }
