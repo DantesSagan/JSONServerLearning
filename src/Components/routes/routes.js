@@ -7,3 +7,4 @@ export const Operators = '/JSON/Operators';
 export const FullTextSearch = '/JSON/FullTextSearch';
 export const Relationships = '/JSON/Relationships';
 export const PostRequest = '/JSON/PostRequest';
+export const PutPatchDeleteRequest = '/JSON/PutPatchDeleteRequest';

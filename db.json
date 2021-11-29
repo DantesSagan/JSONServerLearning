@@ -55,15 +55,15 @@
     {
       "id": 11,
       "rating:": 3,
-      "comment": "Product 11",
-      "category": "electronics",
+      "comment": "Product 12",
+      "category": "furniture",
       "price": 4000
     },
     {
       "id": 12,
       "rating:": 3,
       "comment": "Product 12",
-      "category": "electronics",
+      "category": "furniture",
       "price": 4000
     }
   ],

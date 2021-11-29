@@ -27,6 +27,9 @@ const Relationships = lazy(() =>
 const PostRequest = lazy(() =>
   import('./Components/JSON/JSONPostRequest.PageEight')
 );
+const PutPostDeleteRQ = lazy(() =>
+  import('./Components/JSON/JSONPutPostDeleteRQ.PageNine')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -52,6 +55,11 @@ export default function App() {
           <Route path={ROUTES.Relationships} element={<Relationships />} />
           {/* PostRequest */}
           <Route path={ROUTES.PostRequest} element={<PostRequest />} />
+          {/* PutPostDeleteRQ */}
+          <Route
+            path={ROUTES.PutPatchDeleteRequest}
+            element={<PutPostDeleteRQ />}
+          />
         </Routes>
       </Suspense>
     </BrowserRouter>
