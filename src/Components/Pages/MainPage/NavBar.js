@@ -52,6 +52,9 @@ export default function NavBar() {
                   JsonPutPostDeleteRequest#9
                 </Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.Configurations}>JsonConfigurations#10</Link>
+              </div>
             </div>
           </button>
         </div>

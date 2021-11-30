@@ -30,6 +30,9 @@ const PostRequest = lazy(() =>
 const PutPostDeleteRQ = lazy(() =>
   import('./Components/JSON/JSONPutPostDeleteRQ.PageNine')
 );
+const Configurations = lazy(() =>
+  import('./Components/JSON/JSONConfigurations.PageTen')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -60,6 +63,8 @@ export default function App() {
             path={ROUTES.PutPatchDeleteRequest}
             element={<PutPostDeleteRQ />}
           />
+          {/* Configurations */}
+          <Route path={ROUTES.Configurations} element={<Configurations />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

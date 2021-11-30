@@ -8,3 +8,4 @@ export const FullTextSearch = '/JSON/FullTextSearch';
 export const Relationships = '/JSON/Relationships';
 export const PostRequest = '/JSON/PostRequest';
 export const PutPatchDeleteRequest = '/JSON/PutPatchDeleteRequest';
+export const Configurations = '/JSON/Configurations';
