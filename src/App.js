@@ -33,6 +33,9 @@ const PutPostDeleteRQ = lazy(() =>
 const Configurations = lazy(() =>
   import('./Components/JSON/JSONConfigurations.PageTen')
 );
+const GenerateRandomData = lazy(() =>
+  import('./Components/JSON/JSONGenerateRandomData.PageEleven')
+);
 export default function App() {
   return (
     <BrowserRouter>
@@ -65,6 +68,11 @@ export default function App() {
           />
           {/* Configurations */}
           <Route path={ROUTES.Configurations} element={<Configurations />} />
+          {/* GenerateRandomData */}
+          <Route
+            path={ROUTES.GenerateRandomData}
+            element={<GenerateRandomData />}
+          />
         </Routes>
       </Suspense>
     </BrowserRouter>

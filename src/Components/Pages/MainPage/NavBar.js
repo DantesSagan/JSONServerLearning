@@ -55,6 +55,9 @@ export default function NavBar() {
               <div className='button bg-black text-white'>
                 <Link to={ROUTES.Configurations}>JsonConfigurations#10</Link>
               </div>
+              <div className='button bg-black text-white'>
+                <Link to={ROUTES.GenerateRandomData}>JsonGenerateRandomData#11</Link>
+              </div>
             </div>
           </button>
         </div>
