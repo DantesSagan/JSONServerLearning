@@ -21,7 +21,14 @@ module.exports = () => {
 
   `;
     const codeStringTwo = `
-    
+      "scripts": {
+    "start": "  craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "serve-json": "json-server --watch db.json --port 4000 --routes routes.json"
+  }
+   // instead of
  "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -29,14 +36,8 @@ module.exports = () => {
     "eject": "react-scripts eject",
     "serve-json": "json-server --watch data.js --port 4000 --routes routes.json"
   },
-  // instead of
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "serve-json": "json-server --watch db.json --port 4000 --routes routes.json"
-  },
+
+
   `;
     return (
       <div>
